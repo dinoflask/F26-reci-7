@@ -7,7 +7,7 @@ const WORD = /^[A-Z]{5}$/;
  *
  * Preconditions: `secret` and `guess` are both exactly five uppercase letters
  * A-Z. Otherwise throws a RangeError.
- *
+ * 
  * Returns five colors, one per position of `guess`:
  *   - 'G' (green):  guess[i] === secret[i].
  *   - 'Y' (yellow): guess[i] occurs elsewhere in the secret, and that
